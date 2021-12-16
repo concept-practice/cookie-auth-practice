@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32002.185
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookieAuth.API", "CookieAuth.API\CookieAuth.API.csproj", "{7DC35B69-280E-4D0C-8EAA-F8D9C4620F40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookieAuth.Infrastructure", "CookieAuth.Infrastructure\CookieAuth.Infrastructure.csproj", "{A10FECDD-5DA3-41FA-A82D-163CA11A6823}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookieAuth.Application", "CookieAuth.Application\CookieAuth.Application.csproj", "{F97F0B36-5F7F-453A-82C9-460A7D9A5932}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookieAuth.Domain", "CookieAuth.Domain\CookieAuth.Domain.csproj", "{937E61E1-37A6-42B8-9D09-6428AFA06E44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DC35B69-280E-4D0C-8EAA-F8D9C4620F40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DC35B69-280E-4D0C-8EAA-F8D9C4620F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DC35B69-280E-4D0C-8EAA-F8D9C4620F40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DC35B69-280E-4D0C-8EAA-F8D9C4620F40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A10FECDD-5DA3-41FA-A82D-163CA11A6823}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A10FECDD-5DA3-41FA-A82D-163CA11A6823}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A10FECDD-5DA3-41FA-A82D-163CA11A6823}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A10FECDD-5DA3-41FA-A82D-163CA11A6823}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F97F0B36-5F7F-453A-82C9-460A7D9A5932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F97F0B36-5F7F-453A-82C9-460A7D9A5932}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F97F0B36-5F7F-453A-82C9-460A7D9A5932}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F97F0B36-5F7F-453A-82C9-460A7D9A5932}.Release|Any CPU.Build.0 = Release|Any CPU
+		{937E61E1-37A6-42B8-9D09-6428AFA06E44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{937E61E1-37A6-42B8-9D09-6428AFA06E44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{937E61E1-37A6-42B8-9D09-6428AFA06E44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{937E61E1-37A6-42B8-9D09-6428AFA06E44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A7A349C-B28C-45F9-8061-B9DBCC128488}
+	EndGlobalSection
+EndGlobal
