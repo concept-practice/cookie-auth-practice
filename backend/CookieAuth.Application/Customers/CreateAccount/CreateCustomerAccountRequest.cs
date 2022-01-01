@@ -1,7 +1,7 @@
-﻿using MediatR;
-
-namespace CookieAuth.Application.Customers.CreateAccount
+﻿namespace CookieAuth.Application.Customers.CreateAccount
 {
+    using MediatR;
+
     public class CreateCustomerAccountRequest : IRequest<CreateCustomerAccountResponse>
     {
         public CreateCustomerAccountRequest(string username, string password)

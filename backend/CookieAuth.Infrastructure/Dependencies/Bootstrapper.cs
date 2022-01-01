@@ -1,8 +1,8 @@
 ﻿namespace CookieAuth.Infrastructure.Dependencies
 {
     using System.Reflection;
-    using CookieAuth.Domain.Customers;
     using DataAccess.Common;
+    using Domain.Customers;
     using MediatR;
     using Microsoft.AspNetCore.Identity;
     using Microsoft.EntityFrameworkCore;
