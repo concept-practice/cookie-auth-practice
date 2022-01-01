@@ -1,17 +1,12 @@
 import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
+import UsersIndex from '../features/users/UsersIndex';
 
 const App: React.FC = () => {
 	return (
-		<React.Fragment>
-			<div>Hello!</div>
-			<table className="pure-table">
-				<thead>
-					<tr>
-						<th>Title</th>
-					</tr>
-				</thead>
-			</table>
-		</React.Fragment>
+		<Container>
+			<UsersIndex />
+		</Container>
 	);
 };
 
