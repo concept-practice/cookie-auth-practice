@@ -19,7 +19,11 @@
 
             services.AddIdentity<Customer, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationContext>()
-                .AddDefaultTokenProviders();
+                .AddDefaultTokenProviders()
+
+
+
+
 
             services.AddAuthentication().AddCookie();
 
